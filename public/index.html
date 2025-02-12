@@ -2,14 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/icsteet-logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="%PUBLIC_URL%/index.global.js"></script>
+    <script src="%PUBLIC_URL%/flowbite.min.js"></script>
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Join the 2nd International Conference on Social Sciences, Teaching & Education, Engineering, and Technology (ICSTEET-2026) in Manila, Philippines, or virtually. Network with global experts, present research, and get published in Scopus-indexed journals. Register now!"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <meta
+      name="keywords"
+      content="ICSTEET 2026, International Conference, Social Sciences, Education, Engineering, Technology, Research Conference, Scopus Indexed Conference, Academic Conference 2026"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/icsteet-logo.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,7 +31,66 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>
+      ICSTEET 2026 | International Conference on Social Sciences, Education &
+      Technology
+    </title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "2nd International Conference on Social Sciences, Teaching & Education, Engineering and Technology (ICSTEET-2026)",
+        "startDate": "2026-01-29",
+        "endDate": "2026-01-30",
+        "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "location": {
+          "@type": "Place",
+          "name": "Manila, Philippines",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Manila",
+            "addressCountry": "PH"
+          }
+        },
+        "organizer": {
+          "@type": "Organization",
+          "name": "Confworld Educational Research and Development Association",
+          "url": "https://www.icsteet.com"
+        },
+        "description": "Join the 2nd International Conference on Social Sciences, Teaching & Education, Engineering, and Technology (ICSTEET-2026) in Manila, Philippines, or virtually. Network with global experts, present research, and get published in Scopus-indexed journals.",
+        "image": "https://www.icsteet.com/banner.jpg",
+        "offers": {
+          "@type": "Offer",
+          "url": "https://www.icsteet.com/register",
+          "price": "100",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2025-04-01"
+        },
+        "performer": {
+          "@type": "Organization",
+          "name": "ICSTEET"
+        }
+      }
+    </script>
+    <style>
+      @keyframes marquee {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+
+      .marquee-text {
+        display: inline-block;
+        padding-left: 100%;
+        animation: marquee 10s linear infinite;
+        white-space: nowrap;
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
