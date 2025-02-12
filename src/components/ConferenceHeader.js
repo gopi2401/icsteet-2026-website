@@ -1,7 +1,9 @@
-import { motion } from "motion/react";
+import { motion } from "framer-motion";
+
 import CARADALogo from "../img/CARADA.png";
 import ScopusLogo from "../img/Scopus.png";
 import webLogo from "../img/web.png";
+
 const ConferenceHeader = ({
   title,
   date,
