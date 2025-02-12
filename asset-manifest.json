@@ -1,9 +1,21 @@
 {
   "files": {
-    "main.js": "/icsteet-2026-website/static/js/main.79f4fca8.js",
+    "main.js": "/icsteet-2026-website/static/js/main.a0f444a6.js",
     "static/js/453.4fef3154.chunk.js": "/icsteet-2026-website/static/js/453.4fef3154.chunk.js",
     "static/media/image.png": "/icsteet-2026-website/static/media/image.821c6fbb1227ae06f2f2.png",
+    "static/media/about_icsteet.jpg": "/icsteet-2026-website/static/media/about_icsteet.a1c717c603e557c3c109.jpg",
+    "static/media/pexels-mutecevvil-19915765.jpg": "/icsteet-2026-website/static/media/pexels-mutecevvil-19915765.e81a1ba05984e3d07958.jpg",
+    "static/media/pexels-markusspiske-2990645.jpg": "/icsteet-2026-website/static/media/pexels-markusspiske-2990645.8a70f98ebffa74762b0f.jpg",
+    "static/media/giphy.gif": "/icsteet-2026-website/static/media/giphy.079fea60bd21ba10ee1e.gif",
+    "static/media/pexels-pavel-danilyuk-8294829.jpg": "/icsteet-2026-website/static/media/pexels-pavel-danilyuk-8294829.153449b765647f1c162a.jpg",
+    "static/media/pexels-cottonbro-6604502.jpg": "/icsteet-2026-website/static/media/pexels-cottonbro-6604502.bad9bf5fec8dbc67ea58.jpg",
+    "static/media/theme-Cg.jpg": "/icsteet-2026-website/static/media/theme-Cg.6e162fd0fd585537a549.jpg",
+    "static/media/pexels-finite-captures-1993313-30604809.jpg": "/icsteet-2026-website/static/media/pexels-finite-captures-1993313-30604809.41d8a676518456b2e88c.jpg",
+    "static/media/pexels-franjoli-productions-8241928.jpg": "/icsteet-2026-website/static/media/pexels-franjoli-productions-8241928.2f2fe08be8115fc54928.jpg",
+    "static/media/pexels-rdne-7648306.jpg": "/icsteet-2026-website/static/media/pexels-rdne-7648306.c0a517431b86bedd9f8a.jpg",
     "static/media/icsteet.png": "/icsteet-2026-website/static/media/icsteet.0231da714626bf5970c1.png",
+    "static/media/pexels-jakubzerdzicki-30658383.jpg": "/icsteet-2026-website/static/media/pexels-jakubzerdzicki-30658383.ed64ae336d04df30bb9a.jpg",
+    "static/media/pexels-xespri-724994.jpg": "/icsteet-2026-website/static/media/pexels-xespri-724994.55e863ffe846106eed51.jpg",
     "static/media/CARADA.png": "/icsteet-2026-website/static/media/CARADA.91bfe020a504db05fd30.png",
     "static/media/globeInnovation.png": "/icsteet-2026-website/static/media/globeInnovation.fd7a015d0583349ad51c.png",
     "static/media/Scopus.png": "/icsteet-2026-website/static/media/Scopus.c0dd6300e6de2fec7c86.png",
@@ -13,10 +25,10 @@
     "static/media/web.png": "/icsteet-2026-website/static/media/web.683b048cc2ad2bc67e9f.png",
     "static/media/Education Icon PNG.png": "/icsteet-2026-website/static/media/Education Icon PNG.8ca53536d1cd5e0430d2.png",
     "index.html": "/icsteet-2026-website/index.html",
-    "main.79f4fca8.js.map": "/icsteet-2026-website/static/js/main.79f4fca8.js.map",
+    "main.a0f444a6.js.map": "/icsteet-2026-website/static/js/main.a0f444a6.js.map",
     "453.4fef3154.chunk.js.map": "/icsteet-2026-website/static/js/453.4fef3154.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.79f4fca8.js"
+    "static/js/main.a0f444a6.js"
   ]
 }
