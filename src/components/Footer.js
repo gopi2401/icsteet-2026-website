@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <>
@@ -10,39 +12,39 @@ const Footer = () => {
             <ul className="mt-3 space-y-2">
               <li>
                 🏠{" "}
-                <a href="#" className="hover:underline">
+                <Link to="/" className="hover:underline">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
                 🏢{" "}
-                <a href="#" className="hover:underline">
+                <Link to="About" className="hover:underline">
                   About
-                </a>
+                </Link>
               </li>
               <li>
                 📚{" "}
-                <a href="#" className="hover:underline">
+                <Link to="SessionTracks" className="hover:underline">
                   Session
-                </a>
+                </Link>
               </li>
               <li>
                 ✋{" "}
-                <a href="#" className="hover:underline">
+                <Link to="Submission" className="hover:underline">
                   Submission
-                </a>
+                </Link>
               </li>
               <li>
                 📰{" "}
-                <a href="#" className="hover:underline">
+                <Link to="#" className="hover:underline">
                   Publication
-                </a>
+                </Link>
               </li>
               <li>
                 📌{" "}
-                <a href="#" className="hover:underline">
+                <Link to="#" className="hover:underline">
                   Registration
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

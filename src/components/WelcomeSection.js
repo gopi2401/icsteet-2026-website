@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 
-import EducationIcon from "../img/Education Icon PNG.png";
-import TechnologyIcon from "../img/TechnologyIcon.png";
-import GlobeInnovation from "../img/globeInnovation.png";
-import Image from "../img/image.png";
+import EducationIcon from "../img/EducationIcon.webp";
+import TechnologyIcon from "../img/TechnologyIcon.webp";
+import GlobeInnovation from "../img/globeInnovation.webp";
+import Image from "../img/image.webp";
 
 const WelcomeSection = () => {
   return (

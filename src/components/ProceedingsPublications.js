@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 
-import ScopusLogo from "../img/Scopus.png";
-import SCIELogo from "../img/SCIE-logo.png";
-import WebOfScienceLogo from "../img/web.png";
-import ClarivateLogo from "../img/CARADA.png";
+import ScopusLogo from "../img/Scopus.webp";
+import SCIELogo from "../img/SCIE-logo.webp";
+import WebOfScienceLogo from "../img/web.webp";
+import ClarivateLogo from "../img/CARADA.webp";
 
 const ProceedingsPublications = () => {
   const logos = [

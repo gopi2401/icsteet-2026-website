@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 
-import CARADALogo from "../img/CARADA.png";
-import ScopusLogo from "../img/Scopus.png";
-import webLogo from "../img/web.png";
+import CARADALogo from "../img/CARADA.webp";
+import ScopusLogo from "../img/Scopus.webp";
+import webLogo from "../img/web.webp";
 
 const ConferenceHeader = ({
   title,
@@ -54,9 +54,9 @@ const ConferenceHeader = ({
           </p>
           <h2 className="sm:text-xl italic">{description}</h2>
           <div className="flex justify-center items-center gap-2 sm:mt-5">
-            <img className="w-20 sm:w-24" src={CARADALogo} alt="CARADALogo" />
-            <img className="w-20 sm:w-24" src={ScopusLogo} alt="ScopusLogo" />
-            <img className="w-20 sm:w-24" src={webLogo} alt="webLogo" />
+            <img className="w-20 sm:w-24 rounded-md" src={CARADALogo} alt="CARADALogo" />
+            <img className="w-20 sm:w-24 rounded-md" src={ScopusLogo} alt="ScopusLogo" />
+            <img className="w-20 sm:w-24 rounded-md" src={webLogo} alt="webLogo" />
           </div>
         </div>
       </motion.div>

@@ -109,7 +109,6 @@ const SessionsTracks = () => {
         ))}
       </div>
 
-      {/* Submission Deadlines */}
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -134,18 +133,6 @@ const SessionsTracks = () => {
           ))}
         </ul>
       </motion.div>
-
-      {/* CTA Button */}
-      <motion.a
-        href="#submission"
-        initial={{ scale: 0.8, opacity: 0 }}
-        whileInView={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 0.8, delay: 0.5 }}
-        viewport={{ once: false, amount: 0.3 }}
-        className="mt-8 px-6 py-3 bg-yellow-500 text-gray-900 font-semibold text-lg rounded-lg shadow-lg hover:bg-yellow-400 transition-all"
-      >
-        Submit Your Paper
-      </motion.a>
     </section>
   );
 };

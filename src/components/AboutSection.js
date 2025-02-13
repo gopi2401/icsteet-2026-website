@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Gettyimages from "../img/gettyimages.jpg";
+import Gettyimages from "../img/gettyimages.webp";
 const AboutSection = () => {
   return (
     <section
